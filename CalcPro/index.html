@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Calculadora</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+   <form action="">
+      <table> 
+        <tr>
+          <td colspan="4"><span id="resultado"></span></td> 
+        </tr>
+        <tr>
+          <td><input type="button" name="ac" id="ac" class="ope" value="AC"></td>
+          <td><input type="button" name="flechas" id="flechas" class="ope" value="<<"></td>
+          <td><input type="button" name="porcent" id="porcent" class="ope" value="%"></td>
+          <td><input type="button" name="div" id="div" class="ope" value="/"></td>
+        </tr>
+        <tr>
+          <td><input type="button" name="siete" id="siete" class="numeros" value="7"></td>
+          <td><input type="button" name="ocho" id="ocho" class="numeros" value="8"></td>
+          <td><input type="button" name="nueve" id="nueve" class="numeros" value="9"></td>
+        <td><input type="button" name="mult" id="mult" class="ope" value="x"></td>
+        </tr>
+        <tr>
+          <td><input type="button" name="cuatro" id="cuatro" class="numeros" value="4"></td>
+          <td><input type="button" name="cinco" id="cinco" class="numeros" value="5" ></td>
+          <td><input type="button" name="seis" id="seis" class="numeros" value="6"></td>
+          <td><input type="button" name="resta" id="resta" class="ope" value="-"></td>
+        </tr>
+        <tr>
+          <td><input type="button" name="uno" id="uno" class="numeros" value="1"></td>
+          <td><input type="button" name="dos" id="dos" class="numeros" value="2"></td>
+          <td><input type="button" name="tres" id="tres" class="numeros"  value="3"></td>
+          <td><input type="button" name="suma" id="suma" class="ope" value="+"></td>
+        </tr>
+        <tr>
+          <td><input type="button" name="punto" id="punto" value="." onclick="."></td>
+          <td><input type="button" name="expo" id="expo" class="ope" value="x^y"></td>
+          <td><input type="button" name="zero" id="zero" class="numeros" value="0"></td>
+          <td><input type="button" name="igual" id="igual" class="igual" value="="></td>
+        </tr>
+      </table>
+    </form>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
