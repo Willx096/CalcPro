@@ -18,7 +18,7 @@ var operacion;
   var siete = document.getElementById("siete");
   var ocho = document.getElementById("ocho");
   var nueve = document.getElementById("nueve");
-  
+
   var resta = document.getElementById("resta");
   var suma = document.getElementById("suma");
   var div= document.getElementById("div");
@@ -30,7 +30,7 @@ var operacion;
   var expo = document.getElementById("expo");
 
   var igual = document.getElementById("igual");
-  
+
 
   /*Eventos de click*/
   ac.onclick = function(){
@@ -70,8 +70,8 @@ var operacion;
   nueve.onclick = function(c){
    resultado.textContent = resultado.textContent + "9";
   }
-  
-  /*operadores*/ 
+
+  /*operadores*/
   suma.onclick = function(c){
   operandoa = resultado.textContent;
   operacion = "+";
@@ -106,7 +106,7 @@ function limpiar(){
 function resetear(){
     resultado.textContent = "";
     operandoa = 0;
-    operandob = 0; 
+    operandob = 0;
     operacion = "";
 }
 
@@ -129,7 +129,3 @@ function resolver(){
   resetear();
   resultado.textContent = res;
 }
-
-
-
-
